@@ -1,0 +1,27 @@
+﻿@model Sinefil.Models.Viewmodels.ReviewModel
+
+@{
+    ViewBag.Title = "Add Review";
+}
+
+<form asp-action="AddReview" method="post">
+    <input type="hidden" asp-for="FilmId"/>
+
+    <div class="form-group">
+        <label asp-for="Rating">Rating</label>
+        <input asp-for="Rating" type="number" min="1" max="10" class="form-control" />
+        <span asp-validation-for="Rating" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="Comment">Comment</label>
+        <textarea asp-for="Comment" class="form-control"></textarea>
+        <span asp-validation-for="Comment" class="text-danger"></span>
+    </div>
+
+    <div class=" form-group d-flex justify-content-end mt-2">
+        <button type="submit" class="btn btn-primary btn-size">OK</button>
+    </div>
+    
+</form>

@@ -1,0 +1,44 @@
+﻿@model List<Sinefil.Models.DTO.FilmDTO>
+
+@{
+    ViewBag.Title = "Movie List";
+}
+
+<div class="container">
+    <div class="row">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="col-md-3 mb-4 ">
+                <div class="card h-100 w-100 d-flex flex-column">
+                    <img src="@Model[i].ImgUrl" class="card-img-top" alt="@Model[i].Title" style="height:400px; object-fit:cover;" />
+
+                    <div class="card-body">
+                        <a asp-controller="Film" asp-action="Details" asp-route-id="@Model[i].FilmId" class="text-decoration-none">
+                            <h5 class="card-title">@Model[i].Title</h5>
+                        </a>
+
+                        <p><strong>Ortalama Puan: @Model[i].AverageRating.ToString("0.0")</strong></p>
+                        <p class="card-text">@Model[i].Description</p>
+                        <p><strong>Yönetmen:</strong>@Model[i].Director</p>
+                        <p><strong>Yıl:</strong>@Model[i].Year</p>
+                        <p><strong>Tür:</strong>@Model[i].Genre</p>
+
+                        @if (Context.Session.GetString("Role") == "Admin")
+                        {
+
+                            <div class="d-flex justify-content-end gap-2">
+                                <a asp-action="EditFilm" asp-route-id="@Model[i].FilmId" class="btn btn-warning btn-sm">Edit</a>
+                                <form asp-action="DeleteFilm" asp-route-id="@Model[i].FilmId" method="post">
+                                    <input type="hidden" name="id" value="@Model[i].FilmId" />
+                                    <button type="submit" class="btn btn-danger btn-sm" onClick="return confirm ('Bu yorumu silmek istediğinize emin misiniz?')">Delete</button>
+                                </form>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

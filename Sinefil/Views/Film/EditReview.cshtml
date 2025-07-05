@@ -1,0 +1,32 @@
+﻿@model Sinefil.Models.Viewmodels.ReviewModel
+
+@{
+    ViewBag.Title = "Edit Review";
+}
+
+<center><p>Edit Review</p></center>
+
+<div class="row">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="col-md-4">
+
+            @if(ViewBag.Message !=  null)
+            {
+                <div class="alert alert-danger">Viewbag.Message</div>
+            }
+            <form method="post">
+                <div class="form-group">
+                <label>Rating</label>
+                <input asp-for="Rating" class="form-control"/>
+                    <label>Comment</label>
+                <textarea asp-for="Comment" class="form-control" style="height:300px;"></textarea>
+                </div>
+                <input asp-for="FilmId" type="hidden"/>
+                <input asp-for="ReviewId" type="hidden"/>
+                <button type="submit" class="btn btn-primary float-end mt-2 btn-size">OK</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

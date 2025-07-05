@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sinefil
+build_property.RootNamespace = Sinefil
+build_property.ProjectDir = C:\Users\tugce\OneDrive\Masaüstü\newBeginings\Sinefil\Sinefil\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tugce\OneDrive\Masaüstü\newBeginings\Sinefil\Sinefil
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/AddReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxBZGRSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/EditFilm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxFZGl0RmlsbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/EditReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxFZGl0UmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Film/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tugce/OneDrive/Masaüstü/newBeginings/Sinefil/Sinefil/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4alkf7j6wr

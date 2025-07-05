@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #131618;
+}
+p{
+    font-size:30px;
+}
+
+.card-title {
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
+
+.card-text,
+.card-body p {
+    font-size: 0.9rem; 
+    margin-bottom: 0.25rem;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    height: auto !important; 
+}
+label {
+   color: #c0e992 !important;
+}
+
+
+p{
+   
+    font-family:"Times New Roman";
+    font-size:21px;
+}
+
+nav.navbar {
+    background-color: #f3ce13 !important;
+}
+
+footer {
+    background-color: #f3ce13 !important;
+}
+h1 {
+    color: azure;
+}
+
+p.head {
+    color: azure;
+    font-family: "Times New Roman";
+    font-size: 21px;
+}
+
+.btn-size {
+    background-color: #f3ce13;
+    color: #131618;
+    font-size: 1rem;
+    padding: 8px 30px;
+}
+
+.search-btn {
+    background-color: #131618;
+    color: #f3ce13;
+}
+
+    .search-btn:hover {
+        background-color: #2b3338;
+        color: #f3ce13;
+    }
